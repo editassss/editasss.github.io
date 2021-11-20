@@ -1,78 +1,78 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <title>Moja pierwsza strona na kółku</title>
-    <style>
-        body {background-color: rgb(180, 200, 0);
-            font-family: 'Segoe UI', Montserrat, Geneva, Tachoma;}
-        h1{
-            font-size: 48pt;
-            background-color: blueviolet;
-            box-shadow: 0 0 10px 10px orange inset;
-            
-        }
-        img{
-            margin-top: 30px;
-            box-shadow: 10px 10px rgba(69, 105, 71, 0.75);
-            cursor: crosshair;
-        }
-        img:hover {
-        opacity:0.5;
-        transition-duration: 0,2s;
-        }
-        #tytuł{
-            font-family: "Pacifico";
-        }
+	<meta charset="UTF-8">
+	<title>programowanie</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
 
-    </style>
 </head>
 <body>
-
-    <h1 id="tytuł">Hello, world!</h1>
-    <h2>Hello, world!</h2>
-    <h3>Hello, world!</h3>
-    <h4>Hello, world!</h4>
-    <h5>Hello, world!</h5>
-    <h6>Hello, world!</h6>
-    <h7>Hello, world!</h7>
-
-    <p>Kółko progromowania 21/22
-        
-    </p>
-    <img src="mem.jpg" width= "350px">
-    <iframe width="1366" height="768" src="https://www.youtube.com/embed/xudLnNxwlV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <video src="P1030325.MP4" width="450px" controls loops></video>
-    <audio src="Amanda.mp3" controls></audio>
-    <h2><a href="https://youtube.pl">YouTube</a></h2>
-    <table>
-        <tr>
-            <th>Lp.</th>
-            <th>Nazwa</th>
-            <th>Ocena</th>
-            <th colspan=2>Ocena</th>
-        </tr>
-        <tr>
-            <td>1</td>
-            <td>Gwezdne wojny</td>
-            <td>4/10</td>
-            <td>5/10</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>Spider-man</td>
-            <td>7/10</td>
-            <td>bad(/10</td>
-        </tr>
-        <tr>
-            <td>3</td>
-            <td>Tomek i przyjacel</td>
-            <td>10/10</td>
-            <td>wowow/10</td>
-        </tr>
-    </table>
+	<header id="header" class="header">
+		<div class="container">
+			<img src="img/logo.png" alt="black&white" width="80" height="80" class="logo">
+			<div class="wrapper">
+				<div class="offer">
+					<h1 class="title">
+					Twoje niepotrzebne <span>zdjęcia</span> przydadzą się w odpowiednich przypadkach dla ważnych osób
+					</h1>
+					<p class="intro">
+					Możesz sprzedać niepotrzebne Ci zdjęcia i zdobyć za to dużo pieniędzy i sławy! Jeśli jesteś kolekcjonerem, mamy dla Ciebie wiele korzystnych ofert...
+					</p>
+					<a href="#" class="btn">Dowiedz się więcej</a>
+					
+				</div>
+				<img src="img/photo.png" width="500px" height="500px" alt="photo" class="photo">
+			</div>
+		</div>
+	</header>
+    <section id="wybieranie" class="wybieranie">
+    	<div class="container">
+    	    <h2 class="section-title">Dlaczego warto wybrać właśnie nas?
+    	    </h2>
+    	    <div class="dlaczegomy" >
+    	    	<div class="dlaczego">
+    	    		<h3 class="dlaczego-title">
+    	    			Najkorzystniejsza cena
+    	    		</h3>
+    	    		<p class="dlaczego-text">
+    	    			Ze wszystkich rynków nasz jest najbardziej dochodowy   
+    	    		</p>
+    	    	</div>
+    	    	<div class="dlaczego dlaczego-rabaty">
+    	    		<h3 class="dlaczego-title">
+    	    			Rabaty, promocje, raty
+    	    		</h3>
+    	    		<p class="dlaczego-text">
+    	    			Mamy stały i korzystny system rabatów dla stałych klientów   
+    	    		</p>
+    	    	</div>
+    	    	<div class="dlaczego dlaczego-czas">
+    	    		<h3 class="dlaczego-title">
+    	    			Oszczędzamy Twój czas
+    	    		</h3>
+    	    		<p class="dlaczego-text">
+    	    			Bardzo szybko odnajdujemy sprzedawców i kupujących  
+    	    		</p>
+    	    	</div>
+    	    </div>
+    	</div>
+    </section>
+    <section id="mail" class="mail">
+    	<div class="container">
+    		<h2 class="section-title">Prześlemy Ci aktualne informacje</h2>
+    		<form action="@" class="form">
+    			<input type="mail" placeholder="Wpisz swój e-mail" name="mail" class="input" required>
+    			<button type="submit" class="btn btn-form">Dowiedz się więcej</button>
+    		</form>
+    	</div>
+    </section>
+    <footer id="footer" class="footer">
+    	<div class="container">
+    		<p class="kontakt">
+    			Skontaktuj się z nami: +375293814948
+    		</p>
+        </div>
+    </footer>
 </body>
-
 </html>
-
-
